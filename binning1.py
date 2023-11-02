@@ -1,44 +1,3 @@
-# data = [13, 7, 6, 21, 2, 9, 20, 30, 24]
-
-# data.sort()
-
-# dl = len(data)
-
-# binsC = 3
-
-# bins1 = []
-
-# for i in range(0, len(data)-1, binsC):
-#     l1 = []
-#     for j in range(i, binsC+i):
-#         l1.append(data[j])
-#     bins1.append(l1)
-
-# print(bins1)
-
-# meanBin = []
-
-# for i in bins1:
-#     mean = sum(i)/len(i)
-#     meanBin.append([round(mean, 2)]*3)
-
-# print(meanBin)
-
-# for bin in bins1:
-#     mx = max(bin)
-#     mn = min(bin)
-
-#     for i in range(len(bin)):
-#         if abs(bin[i]-mn) < abs(bin[i]-mx):
-#             bin[i] = mn
-#         else:
-#             bin[i] = mx
-
-# print(bins1)
-
-
-
-
 dataSize = int(input("Enter the size of data set : "))
 
 dataset = []
@@ -115,30 +74,3 @@ for b in bins:
 
 print(bins)
            
-           
-        
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
